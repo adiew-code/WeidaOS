@@ -1,0 +1,331 @@
+Dependencies for Project 'Weida OS', Target 'Real Time System': (DO NOT MODIFY !)
+F (.\Source\Kernel\LoadOS.cpp)(0x50C0A218)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\loados.o" --omf_browse ".\Obj\loados.crf" --depend ".\Obj\loados.d")
+I (.\Source\Mini2440\Include\Mini2440.h)(0x50C43916)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (.\Source\Mini2440\Include\Uart.h)(0x4FDF2ED2)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Include\Device.h)(0x4FDF1363)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\RTC.h)(0x4FDF1366)
+I (.\Source\Mini2440\Include\TouchScreen.h)(0x4FDF1366)
+I (.\Source\Mini2440\Include\Memory.h)(0x50BDAE34)
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\Kernel\WeidaOs.cpp)(0x50D1787C)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\weidaos.o" --omf_browse ".\Obj\weidaos.crf" --depend ".\Obj\weidaos.d")
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\Kernel\Critical_Res.cpp)(0x50C461DC)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\critical_res.o" --omf_browse ".\Obj\critical_res.crf" --depend ".\Obj\critical_res.d")
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+F (.\Source\Kernel\Board.cpp)(0x50BC4C01)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\board.o" --omf_browse ".\Obj\board.crf" --depend ".\Obj\board.d")
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+F (.\Source\Kernel\Virtual_Uart.cpp)(0x50C2AFAA)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\virtual_uart.o" --omf_browse ".\Obj\virtual_uart.crf" --depend ".\Obj\virtual_uart.d")
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+F (.\Source\Kernel\Virtual_LCD.cpp)(0x50C1BDD0)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\virtual_lcd.o" --omf_browse ".\Obj\virtual_lcd.crf" --depend ".\Obj\virtual_lcd.d")
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+F (.\Source\Kernel\Virtual_RTC.cpp)(0x4FDF1364)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\virtual_rtc.o" --omf_browse ".\Obj\virtual_rtc.crf" --depend ".\Obj\virtual_rtc.d")
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+F (.\Source\Kernel\Virtual_TouchScreen.cpp)(0x4FDF1364)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\virtual_touchscreen.o" --omf_browse ".\Obj\virtual_touchscreen.crf" --depend ".\Obj\virtual_touchscreen.d")
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+F (.\Source\Kernel\Virtual_Task.cpp)(0x50D6867B)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\virtual_task.o" --omf_browse ".\Obj\virtual_task.crf" --depend ".\Obj\virtual_task.d")
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\MapTab_16.h)(0x4FDF1364)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\Kernel\Virtual_Memory.cpp)(0x50D5D362)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\virtual_memory.o" --omf_browse ".\Obj\virtual_memory.crf" --depend ".\Obj\virtual_memory.d")
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+F (.\Source\Kernel\New.cpp)(0x50D5BBBC)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\new.o" --omf_browse ".\Obj\new.crf" --depend ".\Obj\new.d")
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\Kernel\Math.cpp)(0x50D5AEB3)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\math.o" --omf_browse ".\Obj\math.crf" --depend ".\Obj\math.d")
+I (.\Source\Include\Math.h)(0x50D5613D)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+F (.\Source\Kernel\CreateUserTask.cpp)(0x518B1C67)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\createusertask.o" --omf_browse ".\Obj\createusertask.crf" --depend ".\Obj\createusertask.d")
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+I (Source\Kernel\../MusicData/WindowsXP_Wav.cpp)(0x5189F6B4)
+F (.\ReadMe.txt)(0x518B1E57)()
+F (.\Source\Mini2440\startup.s)(0x50D2A00A)(--cpu ARM920T -g --apcs=interwork -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung --list ".\startup.lst" --xref -o ".\Obj\startup.o" --depend ".\Obj\startup.d")
+F (.\Source\Mini2440\Mini2440.cpp)(0x50C177F7)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\mini2440.o" --omf_browse ".\Obj\mini2440.crf" --depend ".\Obj\mini2440.d")
+I (.\Source\Mini2440\Include\Mini2440.h)(0x50C43916)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (.\Source\Mini2440\Include\Uart.h)(0x4FDF2ED2)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Include\Device.h)(0x4FDF1363)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\RTC.h)(0x4FDF1366)
+I (.\Source\Mini2440\Include\TouchScreen.h)(0x4FDF1366)
+I (.\Source\Mini2440\Include\Memory.h)(0x50BDAE34)
+F (.\Source\Mini2440\Startup_C.cpp)(0x518B23BB)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\startup_c.o" --omf_browse ".\Obj\startup_c.crf" --depend ".\Obj\startup_c.d")
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\Mini2440\Uart.cpp)(0x50C453A3)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\uart.o" --omf_browse ".\Obj\uart.crf" --depend ".\Obj\uart.d")
+I (.\Source\Mini2440\Include\Uart.h)(0x4FDF2ED2)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+F (.\Source\Mini2440\MMU\2440slib.s)(0x4F65F7E6)(--cpu ARM920T -g --apcs=interwork -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung --list ".\2440slib.lst" --xref -o ".\Obj\2440slib.o" --depend ".\Obj\2440slib.d")
+F (.\Source\Mini2440\MMU\mmu.c)(0x50CE8F6A)(-c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\mmu.o" --omf_browse ".\Obj\mmu.crf" --depend ".\Obj\mmu.d")
+I (Source\Mini2440\MMU\mmu.h)(0x50C834AC)
+F (.\Source\Mini2440\LCD.cpp)(0x50C4380B)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\lcd.o" --omf_browse ".\Obj\lcd.crf" --depend ".\Obj\lcd.d")
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+F (.\Source\Mini2440\RTC.cpp)(0x4FDF1373)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\rtc.o" --omf_browse ".\Obj\rtc.crf" --depend ".\Obj\rtc.d")
+I (.\Source\Mini2440\Include\RTC.h)(0x4FDF1366)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Uart.h)(0x4FDF2ED2)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+F (.\Source\Mini2440\TouchScreen.cpp)(0x4FDF1373)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\touchscreen.o" --omf_browse ".\Obj\touchscreen.crf" --depend ".\Obj\touchscreen.d")
+I (.\Source\Mini2440\Include\TouchScreen.h)(0x4FDF1366)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Mini2440\Include\Uart.h)(0x4FDF2ED2)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+F (.\Source\Mini2440\Task.cpp)(0x50C745DF)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\task.o" --omf_browse ".\Obj\task.crf" --depend ".\Obj\task.d")
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Mini2440\Include\Uart.h)(0x4FDF2ED2)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+F (.\Source\Mini2440\Memory.cpp)(0x50CEDEC5)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\memory.o" --omf_browse ".\Obj\memory.crf" --depend ".\Obj\memory.d")
+I (.\Source\Mini2440\Include\Memory.h)(0x50BDAE34)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+F (.\Source\Mini2440\IIS.cpp)(0x518B0D32)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\iis.o" --omf_browse ".\Obj\iis.crf" --depend ".\Obj\iis.d")
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\Mini2440\Key_Interup.cpp)(0x518B1BD6)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\key_interup.o" --omf_browse ".\Obj\key_interup.crf" --depend ".\Obj\key_interup.d")
+I (.\Source\Games\Snake.h)(0x518B1ADD)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+F (.\Source\MusicData\WindowsXP_Wav.cpp)(0x5189F6B4)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\windowsxp_wav.o" --omf_browse ".\Obj\windowsxp_wav.crf" --depend ".\Obj\windowsxp_wav.d")
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+F (.\Source\Games\Snake.cpp)(0x5199BCB9)(--cpp -c --cpu ARM920T -g -O0 --apcs=interwork -I.\Source\Mini2440\Include -I.\Source\Include -I.\Source\Mini2440\Task\Include -I.\Source\Games --exceptions -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\Samsung -DScatter_File -o ".\Obj\snake.o" --omf_browse ".\Obj\snake.crf" --depend ".\Obj\snake.d")
+I (Source\Games\Snake.h)(0x518B1ADD)
+I (.\Source\Include\DataTypes.h)(0x4FDF1363)
+I (.\Source\Include\WeidaOS.h)(0x518B0F05)
+I (.\Source\Include\Board.h)(0x50D164DF)
+I (.\Source\Include\Virtual_Uart.h)(0x4FDF2F7D)
+I (.\Source\Include\Critical_Res.h)(0x50C2B05D)
+I (.\Source\Mini2440\Include\Config.h)(0x50CE933C)
+I (.\Source\Include\Resource.h)(0x50D5D741)
+I (.\Source\Include\Virtual_LCD.h)(0x50C1B9F4)
+I (.\Source\Include\Virtual_RTC.h)(0x4FDF1364)
+I (.\Source\Include\Virtual_Memory.h)(0x50D5CEB5)
+I (.\Source\Include\Virtual_Task.h)(0x50D5D84F)
+I (d:\Keil\ARM\ARMCC\bin\..\include\new)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\exception)(0x4EB0D284)
+I (.\Source\Include\Virtual_TouchScreen.h)(0x50C73779)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
+I (.\Source\Mini2440\Include\Task.h)(0x50C745DF)
+I (.\Source\Mini2440\Include\LCD.h)(0x50D1533C)
+I (.\Source\Mini2440\Include\Address.h)(0x5189F4BF)
+I (.\Source\Mini2440\Include\Scatter_File.h)(0x50C1712D)
+I (.\Source\Include\Math.h)(0x50D5613D)
